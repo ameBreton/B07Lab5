@@ -42,7 +42,7 @@ public class Rectangle{
     if(obj.getClass() != this.getClass()){
       return false;
     }
-    Square other = (Square)obj;
+    Rectangle other = (Rectangle)obj;
     if(this.length() != other.length()){
       return false;
     }
