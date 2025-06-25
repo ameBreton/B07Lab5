@@ -35,7 +35,7 @@ public class Circle{
     if(!this.A.equals(other.A)){
       return false;
     }
-    if(Math.abs(this.r - other.r) < 1e-9){
+    if(Math.abs(this.r - other.r) >= 1e-9){
       return false;
     }
     return true;
