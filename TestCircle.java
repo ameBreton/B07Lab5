@@ -42,12 +42,23 @@ class TestCircle{
 
   @Test
   void testequals_C(){
-Point p1 = new Point(1.0,2.0);
+	Point p1 = new Point(1.0,2.0);
     Circle c1 = new Circle(p1,2);
     Circle c2 = c1;
     assertTrue(c1.equals(c2));//exactly the same
   }
 
+  @Test
+  void testequals_F(){
+	Point p1 = new Point(1.0,2.0);
+	Point p2 = new Point(1,2);
+    Circle c1 = new Circle(p1,2);
+    Circle c2 = new Circle(p2,2);
+    assertTrue(c1.equals(c2));
+  }
+  
+  
+  
   @Test
   void testequals_D(){
     Point p1 = new Point(1.0,2.0);
