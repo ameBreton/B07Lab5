@@ -38,7 +38,6 @@ public class Circle{
     if(Math.abs(this.r - other.r) >= 1e-9){
       return false;
     }
-    return true;
   }
 
   @Override
