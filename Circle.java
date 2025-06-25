@@ -40,4 +40,9 @@ public class Circle{
     }
     return true;
   }
+
+  @Override
+  public int hashCode() {
+      return A.hashCode() * 31 + (int) (r * 700 * r);
+  }
 }
