@@ -1,3 +1,4 @@
+package lab4;
 public class Rectangle{
   Point A; // one vertex
   Point B; // the other one
