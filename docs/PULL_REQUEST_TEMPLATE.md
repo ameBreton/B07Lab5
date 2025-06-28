@@ -1,3 +1,2 @@
-brief description about changes
-and a checklist for: a) type of change, and b) self code review before creating a pull
-request
+Type of Change:
+(Delete before submittting request) Don't forget to self code review before creating a pull request!!
